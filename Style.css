@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'popins', sans-serif;
+    background-color: black;
+}
+.heading{
+    background-color: black;
+}
+.heading h1{
+    color: #fff;
+    text-align: center;
+}
+.home-page{
+    position: relative;
+}
+.home-page img{
+    width: 100%;
+    height: 450px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.47);
+}
+.home-text{
+    position: absolute;
+    top: 25%;
+    color: #fff;
+    padding: 20px;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+}
+.home-text p{
+    font-size: 2rem;
+}
+.home-text .span-text{
+    color: aqua;
+}
+
+/*Bio graphy section styles*/
+
+.biography{
+    text-align: left;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+.biography h3,p{
+    color: #fff;
+}
+.biography h3{
+    font-size: 2rem;
+}
+.prouds{
+    margin-top: 2.5rem;
+    text-align: right;
+    margin-right: 3rem;
+}
+.prouds h3{
+    color: #fff;
+}
+.end-line{
+    border-bottom: 5px solid white;
+    width: 100%;
+}
+.footer{
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    display: flex;
+}
+.footer p{
+    color: #fff;
+    font-weight: 5rem;
+}
